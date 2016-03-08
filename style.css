@@ -1,0 +1,80 @@
+/*div {border: 1px solid black;}*/
+body {background-color:black;}
+.container {margin: 0px auto;
+			width: 100%;
+			background-color:black;}
+
+.title {margin: auto;
+		text-align: center;
+		width:100%;
+		color:red;
+		background-color:black;
+		font-family: 'Permanent Marker', cursive;
+		font-size:30px;
+}
+
+h5 {font-size: 25px;
+	color:red;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.scontainer {margin: auto;
+			width:100%;
+			background-color:black;
+			}
+
+.picture {width: 75%;
+			display: inline-block;
+			position:absolute;
+			height:580px;}
+
+img{width: 100%;
+	height: 100%;}
+
+.stuff {display: inline-block;
+		width: 23%;
+		position:absolute;
+		left:76%;
+		text-align:center;
+		height: 583px;
+		background-color:black;}
+
+button {border: 2px solid blue;
+		background-color: blue;
+		color: white;
+		font-size: 25px;
+		text-align: center;}
+
+
+.dies {margin:auto;
+		margin-top: 20px;
+		text-align:center;} 
+
+
+.die1 {display:inline-block;
+		width:40%;
+		margin-right: 3px;
+		background-color:white;}
+
+
+.die2 {display:inline-block;
+		width:40%;
+		margin-left: 3px;
+		background-color:white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
