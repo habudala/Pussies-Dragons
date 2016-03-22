@@ -4,6 +4,8 @@ function runAway () {
 
 	document.getElementById("choice").src = "dice-img/fleeing.png";
 
+
+
 	//don't forget if you are using classes, or IDs. It gave you trouble this time. Also getElementByClassName 
 	// said "it's not a function"
 
@@ -12,8 +14,25 @@ function runAway () {
 
 }
 
+	$("#fight").click(function (){
+	$("#img1").addClass("dieOne");
+	$("#img2").addClass("dieTwo");
+
+});
+
+	$("#fight").mouseenter(function (){
+	$("#img1").removeClass("dieOne");
+	$("#img2").removeClass("dieTwo");
+
+});
+
+	
 
 function fight () {
+
+
+
+
 
 	var die1 = Math.floor(Math.random()*6)+1;// getting a random number for die 1
 	// alert(die1);--> checking if it works
@@ -31,4 +50,25 @@ function fight () {
 	}else{document.getElementById("message").innerHTML = "I'm sorry, but you got burned to a crisp! Better luck next time!";}
 	//this resets the picture of the dragon after you hit fight (in case you hit run beforehand)
 document.getElementById("choice").src = "dice-img/dragon.png";
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

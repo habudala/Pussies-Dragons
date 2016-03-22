@@ -29,7 +29,8 @@ h5 {font-size: 25px;
 			height:580px;}
 
 img{width: 100%;
-	height: 100%;}
+	height: 100%;
+	}
 
 .stuff {display: inline-block;
 		width: 23%;
@@ -54,20 +55,27 @@ button {border: 2px solid blue;
 .die1 {display:inline-block;
 		width:40%;
 		margin-right: 3px;
-		background-color:white;}
+		background-color:white;
+		background-size: 100%}
 
 
 .die2 {display:inline-block;
 		width:40%;
 		margin-left: 3px;
-		background-color:white;}
+		background-color:white;
+		}
 
 
+.dieOne{transition:all 2s ease-out;
+		transform:rotateY(3600deg);
+		
+		}
 
+.dieTwo{transition:all 2s ease-out;
+		transform:rotateX(3600deg) ;}
 
-
-
-
+#img1{box-shadow: 5px 5px 5px black;}
+#img2{box-shadow: 5px 5px 5px black;}
 
 
 
